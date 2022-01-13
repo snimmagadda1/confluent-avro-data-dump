@@ -1,0 +1,10 @@
+{
+  "type" : "record",
+  "namespace" : "DataFlair",
+  "name" : "Student",
+  "fields" : [
+     { "name" : "firstName" , "type" : "string" },
+     { "name" : "lastName" , "type" : "string" },
+     {"name": "birth", "type": "int", "logicalType": "date"}
+  ]
+}
